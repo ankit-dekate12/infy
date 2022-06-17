@@ -13,7 +13,6 @@ import com.infy.service.EmployeeService;
 
 @SpringBootApplication
 public class MappingProjectApplication implements CommandLineRunner {
-	System.out.print("I am Ankit And Pulling you");
 	@Autowired
 	EmployeeService service;
 	public static void main(String[] args) {
